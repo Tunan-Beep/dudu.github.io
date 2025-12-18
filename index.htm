@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>WCParty Gaming - 专业游戏设备服务商</title>
+    <style>
+        /* 全局样式：游戏科技风配色（黑+蓝+橙） */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "微软雅黑", Arial;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+        /* 头部：Logo+导航 */
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 15px 50px;
+            background-color: #000;
+        }
+        .logo {
+            width: 80px; /* Logo尺寸适配 */
+            margin-right: 20px;
+        }
+        .nav {
+            margin-left: auto;
+        }
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        .nav a:hover {
+            color: #ff9900; /* 悬浮橙色高亮 */
+        }
+        /* Banner图 */
+        .banner {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+        /* 内容区：产品推荐+简介 */
+        .content {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+            display: flex;
+            gap: 30px;
+        }
+        .product-card {
+            background-color: #2d2d2d;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1;
+            text-align: center;
+        }
+        .product-img {
+            width: 100%;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        .intro {
+            background-color: #2d2d2d;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部：Logo+导航 -->
+    <div class="header">
+        <!-- 嵌入图2的Logo（路径：image/logo.png） -->
+        <img src="image/logo.png" alt="WCParty Gaming Logo" class="logo">
+        <h1>WCParty Gaming</h1>
+        <div class="nav">
+            <a href="index.htm">首页</a>
+            <a href="product.htm">产品中心</a>
+            <a href="#">关于我们</a>
+            <a href="#">联系客服</a>
+        </div>
+    </div>
+
+    <!-- Banner图（游戏设备主题） -->
+    <img src="image/banner.jpg" alt="游戏设备Banner" class="banner">
+
+    <!-- 内容区 -->
+    <div class="content">
+        <!-- 产品推荐 -->
+        <div class="product-card">
+            <img src="image/product1.jpg" alt="游戏主机" class="product-img">
+            <h3>专业游戏主机</h3>
+            <p>搭载RTX 4090显卡，流畅运行4K游戏</p>
+            <a href="product.htm" style="color: #ff9900; text-decoration: none;">查看详情</a>
+        </div>
+        <!-- 公司简介 -->
+        <div class="intro">
+            <h2>关于WCParty Gaming</h2>
+            <p>我们是专注于游戏设备的创新公司，提供高性能主机、外设及定制化方案，为游戏玩家打造极致体验。</p>
+            <p>团队由硬件工程师与游戏爱好者组成，坚持“性能+颜值”双优的产品理念，服务全球玩家。</p>
+        </div>
+    </div>
+</body>
+</html>

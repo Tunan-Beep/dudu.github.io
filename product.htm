@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>产品中心 - WCParty Gaming</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "微软雅黑", Arial;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 15px 50px;
+            background-color: #000;
+        }
+        .logo {
+            width: 80px;
+            margin-right: 20px;
+        }
+        .nav {
+            margin-left: auto;
+        }
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        .nav a:hover {
+            color: #ff9900;
+        }
+        /* 产品详情区 */
+        .product-detail {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+            background-color: #2d2d2d;
+            padding: 30px;
+            border-radius: 8px;
+            display: flex;
+            gap: 30px;
+        }
+        .detail-img {
+            width: 50%;
+            border-radius: 4px;
+        }
+        .detail-text {
+            width: 50%;
+        }
+        /* 返回主页按钮 */
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff9900;
+            color: #000;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="image/logo.png" alt="WCParty Gaming Logo" class="logo">
+        <h1>WCParty Gaming</h1>
+        <div class="nav">
+            <a href="index.htm">首页</a>
+            <a href="product.htm">产品中心</a>
+            <a href="#">关于我们</a>
+            <a href="#">联系客服</a>
+        </div>
+    </div>
+
+    <!-- 产品详情 -->
+    <div class="product-detail">
+        <img src="image/product1.jpg" alt="游戏主机详情" class="detail-img">
+        <div class="detail-text">
+            <h2>专业游戏主机 - 战神X1</h2>
+            <p><strong>核心配置：</strong>i9-13900K处理器 + RTX 4090显卡 + 32G DDR5内存 + 2TB SSD</p>
+            <p><strong>外观设计：</strong>RGB幻彩机箱，支持自定义灯效，适配桌面电竞风格</p>
+            <p><strong>适用场景：</strong>4K/144Hz游戏、3D建模、视频剪辑等高性能需求</p>
+            <p><strong>价格：</strong>¥19999</p>
+            <a href="index.htm" class="back-btn">返回首页</a>
+        </div>
+    </div>
+</body>
+</html>
